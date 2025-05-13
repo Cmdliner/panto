@@ -6,7 +6,7 @@ export default function Header() {
         <header className="text-white flex justify-between items-end">
             <div className="brand-name  text-2xl">Panto</div>
 
-            <nav className="flex items-center">
+            <nav className="hidden md:flex items-center">
                 <ul className="flex gap-12 text-xl">
                     <li><Link href="#" className="hover:underline">Furniture</Link></li>
                     <li><Link href="#" className="hover:underline">Shop</Link></li>
