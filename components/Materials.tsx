@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function Materials() {
     return (
         <section className="md:min-h-screen flex flex-col md:flex-row">
-            <div className="flex-1/2 p-8 m-auto">
-                <h2 className="uppercase text-[#e58411]">materials</h2>
+            <div className="flex-1/2 p-8 md:pl-20 m-auto">
+                <h2 className="uppercase text-[#e58411] tracking-[.2rem] text-xl font-semibold">materials</h2>
 
-                <h3 className="text-4xl text-[#1E1E1E] font-bold leading-12">
-                    <span className="block">Very Serious </span>
-                    <span className="block">Materials For Making</span>
-                    <span className="block">Furniture</span>
+                <h3 className="text-[2.7rem] text-[#1E1E1E] font-bold ">
+                    <span className="block leading-12">Very Serious </span>
+                    <span className="block leading-12">Materials For Making</span>
+                    <span className="block leading-12">Furniture</span>
 
                 </h3>
 
                 <p className=" leading-9 text-lg">
-                    Because panto was very serious about designingning furniture for our
+                    Because panto was very serious about designing furniture for our
                     <br />
                     environment, using a very expensive and famous capital but at a
                     <br />

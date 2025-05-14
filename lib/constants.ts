@@ -1,3 +1,5 @@
+import { type Testimonial } from "..";
+
 export const reasons = [
     {
         title: "Luxury facilities",
@@ -42,5 +44,29 @@ export const BestSellingProducts = [
         kind: CHAIR,
         rating: 5,
         price: 921,
+    }
+]
+
+export const testimonials: Testimonial[] = [
+    {
+        name: "Bang Upin",
+        img_url: "/assets/",
+        bg_img: "/assets/testimonial_bg_1.png",
+        company_name: "Pedagang Asangan",
+        review: "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal"
+    },
+    {
+        name: "Ibuk Sukijan",
+        img_url: "/assets/",
+        bg_img: "/assets/testimonial_bg_2.png",
+        company_name: "Ibu Rumman Tonga",
+        review: "Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah"
+    },
+    {
+        name: "Mpok Ina",
+        img_url: "/assets/",
+        bg_img: "/assets/testimonial_bg_3.png",
+        company_name: "Karyawon Swasta",
+        review: "Sangat terjangkau untuk kantong saya yang tidak terlalu banyak"
     }
 ]
