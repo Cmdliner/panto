@@ -1,3 +1,18 @@
+# Panto - Furniture Landing Page
+
+This project brings a beautiful Figma Community design to life with modern web technologies. I discovered this stunning furniture landing page design on Figma Community and decided to recreate it using Next.js, adding responsive design features and mobile optimizations.
+
+## Design Source
+
+**Original Figma Design:** [Panto - Furniture Landing Page Design](https://www.figma.com/design/h1g3YDnbhqxYtwvuddTVA3/Panto---Furniture-Landing-Page-Design--Community-?node-id=0-1&p=f&t=SwwHQfCgB6cIScGF-0)
+
+## What I Added
+
+- **Full Responsiveness**: Made the design work perfectly on mobile, tablet, and desktop screens
+- **Interactive Elements**: Added hover effects, smooth transitions, and interactive components
+- **Modern Code Structure**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Optimized Performance**: Used Next.js Image optimization and modern best practices
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
