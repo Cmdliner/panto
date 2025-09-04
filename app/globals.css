@@ -17,9 +17,17 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-gilroy);
+}
+
+/* Hide scrollbars */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
 }
